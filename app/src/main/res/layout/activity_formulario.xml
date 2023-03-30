@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblTitulo"
+        android:text="Formulario de registro"
+        android:textSize="30dp"
+        android:padding="5dp"
+        />
+
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombre"
+        android:layout_below="@+id/lblTitulo"
+        android:hint="Nombre"
+        android:textAlignment="center"
+        android:paddingBottom="20dp"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtApellido"
+        android:layout_below="@id/txtNombre"
+        android:hint="Apellido"
+        android:textAlignment="center"
+        android:paddingBottom="20dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTelefono"
+        android:layout_below="@id/txtApellido"
+        android:hint="Telefono"
+        android:textAlignment="center"
+        android:paddingBottom="20dp"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txCorreo"
+        android:layout_below="@id/txtTelefono"
+        android:hint="Correo"
+        android:textAlignment="center"
+        android:paddingBottom="20dp"
+
+
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chkGenero"
+        android:background="@color/white"
+        android:text="Pinchame"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/txCorreo"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSeleccionar"
+        android:layout_alignParentBottom="true"
+        android:onClick="btnSeleccionar"
+        android:text="Presioname"
+
+
+        />
+
+
+
+
+</RelativeLayout>

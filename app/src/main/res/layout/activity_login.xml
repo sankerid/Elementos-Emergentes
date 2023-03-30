@@ -36,5 +36,7 @@
         android:background="@color/black"
         android:textColorHighlight="@color/black"
         android:textColorLink="@color/black"
+        android:onClick="btnLogin"
+
         />
 </RelativeLayout>
